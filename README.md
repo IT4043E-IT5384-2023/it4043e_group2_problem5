@@ -22,6 +22,8 @@ Run each cell in **main.ipynb** in the corresponding order to
 
 The data crawled for project comes from the centic.io database.
 
-We crawl a predefined number of wallets with their corresponding incoming and outgoing transactions as well as the transferring events and smart contracts related to them if they exist. 
+We crawl a predefined amount of ethereum wallets with a minimum balanceInUSD of 100_000$. 
 
-Next to this data we also crawl the native token priceChangeLog to define the value of transactions that not have a smart contract. 
+For each wallet we crawl related incoming and outgoing transaction.
+
+For each transaction we crawl related transferring event and smart contract if existent.
