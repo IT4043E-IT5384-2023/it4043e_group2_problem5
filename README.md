@@ -8,12 +8,6 @@ This paragraph outlines the Python libraries and their versions required for thi
 - **Pymongo:** 4.6.0
 - **Psycopg2:** 2.9.9
 
-### Install Libraries
-
-```bash
-pip install -r requirements.txt
-```
-
 ## Usage
 
 Run each cell in **main.ipynb** in the corresponding order to 
